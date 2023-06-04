@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping  package="com.ecommerce">
+  <class name="ClassReport"  table="report">
+    <id name="ID"  type="int" column="ID">
+    <generator class="increment"/>
+    </id>
+    
+    <property name="Roll" type="string" column="Roll"/>
+    <property name="student" type="string" column="Student"/>
+    <property name="classes" type="string" column="classes"/>
+    <property name="subject" type="string" column="subject"/>
+    <property name="teacher" type="string" column="teacher"/>
+  </class>
+</hibernate-mapping>

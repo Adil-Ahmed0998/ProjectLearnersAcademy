@@ -1,0 +1,10 @@
+CREATE TABLE `report` (
+  `ID` int NOT NULL,
+  `Roll` varchar(45) DEFAULT NULL,
+  `student` varchar(45) DEFAULT NULL,
+  `classes` varchar(45) DEFAULT NULL,
+  `subject` varchar(45) DEFAULT NULL,
+  `teacher` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
